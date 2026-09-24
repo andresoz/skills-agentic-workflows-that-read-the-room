@@ -11,6 +11,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -38,7 +39,8 @@ Keep Mona's GitHub Info page current with concise, practical guidance for develo
 3. Fetch and review both official sources:
    - https://github.blog/latest/
    - https://github.blog/changelog/
-4. Identify useful, recent updates that fit Mona's editorial angle. Keep summaries short and practical, and cite the source URL for every update.
+    - https://awesome-copilot.github.com/workflows/
+4. Include Awesome Copilot workflows as a source alongside the GitHub Blog and Changelog. Identify useful, recent updates that fit Mona's editorial angle. Keep summaries short and practical, and cite the source URL for every update.
 5. Edit only `site/content/github-info.md`. Preserve its existing structure and avoid duplicating information already present.
 6. When the page needs a source-backed update, use the configured `create-pull-request` safe output to open one pull request targeting `main` for Mona to review. Include a concise summary and the source links in the pull request body.
 7. If no source-backed update is appropriate, or if the sources cannot be fetched, use `noop` with a short reason and make no edits.
